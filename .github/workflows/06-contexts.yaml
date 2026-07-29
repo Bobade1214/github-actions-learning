@@ -9,4 +9,4 @@ jobs:
         steps:
             - name: Display Information
               run: |
-                echo "Event name: $event_name"
+                echo "Event name: ${{github.event_name}}"
